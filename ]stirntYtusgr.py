@@ -236,3 +236,4 @@ def prioritise_patients(patients: List[Patient]) -> List[TriageResult]:
     results = [assess_patient(p) for p in patients]
     results.sort(key=lambda r: TRIAGE_LEVELS.index(r.category))
     return results
+anagli is trstimg git
